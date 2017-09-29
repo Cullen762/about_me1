@@ -1,6 +1,6 @@
 'use strict';
 var user = prompt ('who are you?');
-alert ('So..its you ' + user + ' we know you ' + user + ' we are the internet we know all about you and your...preferences' );
+alert ('So..its you ' + user + ' we know you ' + user + ' we are the internet we know everything about you and your uh preferences' );
 console.log('The user has entered a name');
 
 var question0 = prompt ('Lets play a game. Answer the following questions with Y/N Do you understand? ').toLowerCase();
