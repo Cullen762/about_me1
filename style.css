@@ -3,6 +3,7 @@ body,html{background-color:gray;
 
 #header{
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 28px;
   background-color: white;
   margin-left: -1%;
   margin-right: -1%;
@@ -15,6 +16,8 @@ body,html{background-color:gray;
 }
 
 #links{
+  text-decoration-color: black;
+  font-size: 18px;
   display: inline;
   padding-left: 7%;
   padding-right: 60%;
@@ -23,18 +26,20 @@ body,html{background-color:gray;
 }
 
 a:link {
-  color: red;
+  color:black;
   text-decoration: none;
 }
 
 a:hover{
-  color:red;
+  color:#9F3846;
   text-decoration:none;
 }
 a{
   padding: 5%;
-}
 
+
+
+}
 #org{
   font-family: 'Roboto Condensed', sans-serif;
   background-color: white;
@@ -64,13 +69,15 @@ a{
       margin-right: 10%;
       margin-top: 5%;
       padding: 2%;
+}
 
-      }
 
   #footer{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 28px;
     background-color: black;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: -1%;
+    margin-right: -1%;
     margin-top: 5%;
     padding: 5%;
 
