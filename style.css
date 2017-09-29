@@ -1,1 +1,49 @@
-background 
+body,html{background-color:gray;
+}
+
+#header{
+
+  background-color: white;
+  background-color: white;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  padding: 5%;
+
+
+
+}
+
+.text{
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  padding: 5%;
+
+  }
+
+  #footer{
+    background-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding: 5%;
+
+  }
+
+
+
+
+/*<div id="header"> <!--header with links to topics : Tribe, sweet skills, sworn enemies, true loves --> </div>
+<div> <!-- white space--> </div>
+  <div id="tribe"> <h2>Tribe</h2>
+  <p>This is my tribe my tribe is amazing </p></div>
+    <div id="skills"> <h2>Sweet Skills</h2> <p>I have killer Bo staff skills</p></div>
+      <div id="likes"> <h2>Sworn Enemies and True Loves <!--cheeky fonts? answers to questions--></h2> <p><ul>
+        <li></li>
+      </ul></p></div>
+
+        <div id="footer"> <!--solid colour-->
+
+        </div>
