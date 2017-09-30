@@ -100,9 +100,9 @@ while(!isCorrect && guesses > 0 ){
     }
   }
   if(isCorrect === true){
-    alert ('you got it');
+    alert ('You got it!');
   }else{
-    question7 = prompt ('Wrong! you suck');
+    question7 = prompt ('No Soup For You!');
     guesses--;
   }
 }
