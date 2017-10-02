@@ -1,6 +1,16 @@
-html{
-}
+
 
 body{
-  background-image: url("pics/bashi.jpg");
+  background-color: #182251;
+
+}
+
+#dw{
+background-color: #E4DEE3;
+margin: 25%;
+padding: 10%;
+font-family: 'Indie Flower', cursive;
+font-size: 32px;
+
+
 }

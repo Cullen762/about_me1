@@ -24,12 +24,15 @@ console.log('The user has answer question0');
 
 var question1 = prompt ('Was this guy born in Canada?').toLowerCase();
 if(question1 === 'n'){
+  document.write('test');
+
   alert('Correct! ' + user + ' You get two points');
   userPoints++;
 
 }else{
   alert ('C\'est Faux! (WRONG!) ' + user + ' You lose 2! that is 2! points!!!');
 }
+
 console.log('The user has answered question1');
 
 var question2 = prompt ('Does Tim have a dog?').toLowerCase();
@@ -81,12 +84,7 @@ if(question6 === '23'){
 //hung up on number 7 will refactor later
 console.log('The user has answer question6');
 
-add for loop to number 7 give them 5 chances
-for (var i = 0; i < 9; i++) {
-   console.log(i);
-// more statements
-
-var biers = [ 'Ipa','Stout','Lambic','Porter','Trappist','Braggot'];
+var biers = [ 'ipa','stout','lambic','porter','Belgian','braggot'];
 var guesses = 6;
 
 var question7 = prompt (' Tim, loves beer can you guess his favorite style?');
@@ -101,6 +99,7 @@ while(!isCorrect && guesses > 0 ){
   }
   if(isCorrect === true){
     alert ('You got it!');
+    document.write('another test');
   }else{
     question7 = prompt ('No Soup For You!');
     guesses--;
