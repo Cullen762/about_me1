@@ -2,13 +2,46 @@
 
 body{
   background-color: #182251;
+  padding: 10%;
+  
 
 }
 
 #dw{
 background-color: #E4DEE3;
-margin: 25%;
-padding: 10%;
+height: 50%;
+margin-right: 20%;
+margin-left: 20%;
+margin-bottom: 2%;
+padding-left: 3%;
+font-family: 'Indie Flower', cursive;
+font-size: 32px;
+
+
+
+}
+
+#dw2{
+background-color: #E4DEE3;
+border-color:red;
+margin-top: -5%;
+margin-left: 30%;
+margin-right: 23%;
+padding-left:3%;
+font-family: 'Indie Flower', cursive;
+font-size: 32px;
+
+
+
+}
+
+#dw3{
+background-color: #E4DEE3;
+border-color: yellow;
+margin-top: -5%;
+margin-left: 35%;
+margin-right: 40%;
+padding-left: 3%;
 font-family: 'Indie Flower', cursive;
 font-size: 32px;
 

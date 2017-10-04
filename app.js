@@ -1,36 +1,48 @@
 'use strict';
+var right = +2;
+var wrong = -2;
 var userPoints = 0;
 var user = prompt ('who are you?');
+
+function progress (userPoints,right){
+  return userPoints + right;
+}
+console.log(user + ' got it right');
+
+function decay (userPoints,wrong){
+  return userPoints + wrong;
+}
+console.log(user + ' got it wrong');
 
 while (!user) {
   user = prompt ('Are you sure you want to leave this box empty? we are the internet we know ALL of your secrets, think about it');
 }
 
-alert ('So..its you ' + user + ' we know you ' + user + ' We know everything about you ' );
-console.log('The user has entered a name');
+alert ('So..its you ' + user + ' we know you ' + user + ' We know about your  preferences we know everything about you ' );
+console.log( user + ' has decided to play');
 
-//do while loop here, set condition to break loop,!==
-
-//print results on game page.
+// How to print points into an array?
+// print results on game page.
 
 var question0 = prompt (' Ok ' + user + ' it is time to see if you really took the time to read this. Answer the following questions with yes or no, Y or N. For every question you get right, we will give you 2 points. Do you understand? ').toLowerCase();
+
 if(question0 === 'y') {
   alert ('Right then! ' + user + ' Get your hands out of your pockets and lets do this!');
 
 }else {
-  alert('really ' + user + ' ?');
+  alert('Really ' + user + ' ?');
+  //function that prints something cheeky?
 }
 console.log('The user has answer question0');
 
 var question1 = prompt ('Was this guy born in Canada?').toLowerCase();
 if(question1 === 'n'){
-  document.write('test');
-
-  alert('Correct! ' + user + ' You get two points');
-  userPoints++;
+  alert ('So you were paying attention')
+  progress();
 
 }else{
-  alert ('C\'est Faux! (WRONG!) ' + user + ' You lose 2! that is 2! points!!!');
+  alert ('Non! C\'est faux! il est de Etats Unis!');
+decay();
 }
 
 console.log('The user has answered question1');
@@ -99,7 +111,7 @@ while(!isCorrect && guesses > 0 ){
   }
   if(isCorrect === true){
     alert ('You got it!');
-    document.write('another test');
+    document.write('this is a submliminal message');
   }else{
     question7 = prompt ('No Soup For You!');
     guesses--;
