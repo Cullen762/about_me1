@@ -1,34 +1,42 @@
 
 
 body{
-  background-color: #182251;
-  padding: 10%;
-  
+  background-image: image(img/IMG_1962.jpg);
+  background-attachment:fixed;
+  width: 100%;
+  height: 100%;
+  /*style buttons and prompts */
 
 }
 
-#dw{
-background-color: #E4DEE3;
-height: 50%;
-margin-right: 20%;
-margin-left: 20%;
-margin-bottom: 2%;
-padding-left: 3%;
-font-family: 'Indie Flower', cursive;
-font-size: 32px;
+/*a{
+  color: white;
+}*/
+
+/*#b{
+ background-attachment:fixed; */;
+ width: 1500px;
+}*/
+
+#text{
+  margin-left: 50%;
+  margin-bottom: 50%;
+  color:
+}
+/*
 
 
 
 }
 
-#dw2{
+/*#dw2{
 background-color: #E4DEE3;
 border-color:red;
 margin-top: -5%;
 margin-left: 30%;
 margin-right: 23%;
 padding-left:3%;
-font-family: 'Indie Flower', cursive;
+font-family: 'Indie Flower',cursive;
 font-size: 32px;
 
 
@@ -46,4 +54,4 @@ font-family: 'Indie Flower', cursive;
 font-size: 32px;
 
 
-}
+}*/

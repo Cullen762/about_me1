@@ -1,4 +1,7 @@
 'use strict';
+//wrap in a function
+// maybe put everything in an array, have the function call it. use an IFFY
+//
 var right = +2;
 var wrong = -2;
 var userPoints = 0;
@@ -24,7 +27,7 @@ console.log( user + ' has decided to play');
 // How to print points into an array?
 // print results on game page.
 
-var question0 = prompt (' Ok ' + user + ' it is time to see if you really took the time to read this. Answer the following questions with yes or no, Y or N. For every question you get right, we will give you 2 points. Do you understand? ').toLowerCase();
+var question0 = prompt (' Ok ' + user + ' it is time to see if you really took the time to read this. Answer the following questions with Y or N.  Do you understand? ').toLowerCase();
 
 if(question0 === 'y') {
   alert ('Right then! ' + user + ' Get your hands out of your pockets and lets do this!');
@@ -37,7 +40,7 @@ console.log('The user has answer question0');
 
 var question1 = prompt ('Was this guy born in Canada?').toLowerCase();
 if(question1 === 'n'){
-  alert ('So you were paying attention')
+  alert  ('So you were paying attention')
   progress();
 
 }else{
