@@ -63,14 +63,17 @@ var q2 = function(){
 q2();
 
 //Question 3
-var question3 = prompt ('Does Tim prefer Asian cuisine?').toLowerCase();
-if(question3 === 'yes'){
-  alert ('Thats right, he loves stuffing his face with all manner of dumplings, lumpia, bahn mi,   ramen, curry and masala!');
-  userPoints++;
-}else{
-  alert('Nope you are wrong ' + user + ' very wrong');
-}
-console.log('The user has answer question3 with: ' + question3);
+var q3 = function(){
+  var question3 = prompt ('Does Tim prefer Asian cuisine?').toLowerCase();
+  if(question3 === 'yes'){
+    alert ('Thats right, he loves stuffing his face with all manner of dumplings, lumpia, bahn mi,   ramen, curry and masala!');
+    userPoints++;
+  }else{
+    alert('Nope you are wrong ' + user + ' very wrong');
+  }
+  console.log('The user has answer question3 with: ' + question3);
+};
+q3();
 
 //Question 4
 var question4 = prompt ('Is he married?').toLowerCase();
