@@ -65,7 +65,8 @@ a{
 
 #org{
   font-family: 'Roboto Condensed', sans-serif;
-  background-color: white;
+  background-color:white;
+  background-color: hsl(0,0%,1.0);
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 20%;
