@@ -11,4 +11,7 @@
 
 # As a developer I want to explore stretch goals with CSS and style the pop up windows with colors and fonts.
 
-# As a student I want to learn by doing with this project and respond to critique with a positive mindset. 
+# As a student I want to learn by doing with this project and respond to critique with a positive mindset.
+
+#Driver: Nick Damberg
+#Navigator: Tim Cullen
