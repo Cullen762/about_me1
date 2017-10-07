@@ -20,16 +20,19 @@ console.log('the user is called' + user );
 // print results on game page.
 
 //Question 0
-var question0 = prompt (' Ok ' + user + ' Answer the following questions with "yes" or "no"  Do you understand? ').toLowerCase();
+var q0 = function(){
+  var question0 = prompt (' Ok ' + user + ' Answer the following questions with "yes" or "no"  Do you understand? ').toLowerCase();
 
-if(question0 === 'y' || 'yes') { //this keeps returning the same value, needs to be fixed
-  alert ('Right then! ' + user + ' Get your hands out of your pockets and lets do this!');
+  if(question0 === 'y' || 'yes') { //this keeps returning the same value, needs to be fixed
+    alert ('Right then! ' + user + ' Get your hands out of your pockets and lets do this!');
 
-}else {
-  alert('Really ' + user + ' ?');
-  //function that prints something cheeky?
-}
-console.log('The user has answer question0');
+  }else {
+    alert('Really ' + user + ' ?');
+    //function that prints something cheeky?
+  }
+  console.log('The user has answer question0');
+};
+q0();
 
 //question1
 var question1 = prompt ('Was this guy born in Canada?').toLowerCase();
@@ -118,3 +121,5 @@ while(!isCorrect && guesses > 0 ){
   }
 }
 console.log('The user has answer question6 with: ' + question7);
+console.log('finsished with: ' + userPoints);
+alert ('Right then! ' + user + ' You finished with' + userPoints + ' points.');
