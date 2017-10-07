@@ -89,14 +89,17 @@ var q4 = function(){
 q4();
 
 //Question5
-var question5 = prompt ('Would you buy Tim a nice hoppy pint?').toLowerCase();
-if(question5 === 'yes'){
-  alert ('Hey Buddy!');
-  userPoints ++;
-}else {
-  alert('What are you some kind of fascist? '); //minus 2 points
-}
-console.log('The user has answer question5 with: ' + question5);
+var q5 = function(){
+  var question5 = prompt ('Would you buy Tim a nice hoppy pint?').toLowerCase();
+  if(question5 === 'yes'){
+    alert ('Hey Buddy!');
+    userPoints ++;
+  }else {
+    alert('What are you some kind of fascist? ');
+  }
+  console.log('The user has answer question5 with: ' + question5);
+};
+q5();
 
 // set a for loop
 //question6  (still needs 4 trys added)
