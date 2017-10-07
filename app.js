@@ -30,20 +30,23 @@ var q0 = function(){
     alert('Really ' + user + ' ?');
     //function that prints something cheeky?
   }
-  console.log('The user has answer question0');
+  console.log('The user has answer question0 with: ' + question0);
 };
 q0();
 
 //question1
-var question1 = prompt ('Was this guy born in Canada?').toLowerCase();
-if(question1 === 'no'){
-  alert ('So you were paying attention')
+var q1 = function(){
+  var question1 = prompt ('Was this guy born in Canada?').toLowerCase();
+  if(question1 === 'no'){
+    alert ('So you were paying attention');
 
-}else{
-  alert ('Non! C\'est faux! il est de Etats Unis!');
-}
+  }else{
+    alert ('Non! C\'est faux! il est de Etats Unis!');
+  }
 
-console.log('The user has answered question1 with:' + question1);
+  console.log('The user has answered question1 with:' + question1);
+};
+q1();
 
 //question2
 var question2 = prompt ('Does Tim have a dog?').toLowerCase();
