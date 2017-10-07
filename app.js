@@ -58,7 +58,7 @@ if(question2 === 'yes'){
   alert ('Nope! he has two cats and they are both AWESOME!...');
 
 }else {
-  alert('correct he has cats, awesome cats!, super cats! they are tremendously woderful cats, everyone agrees');
+  alert('correct he has cats, awesome cats!, super cats! they are tremendously wonderful cats, everyone agrees');
 
 }
 console.log('The user has answer question2');
