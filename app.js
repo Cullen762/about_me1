@@ -76,14 +76,17 @@ var q3 = function(){
 q3();
 
 //Question 4
-var question4 = prompt ('Is he married?').toLowerCase();
-if(question4 === 'yes'){
-  alert ('Thats right! he is happily married to a sugarliscious super fox!' + user + ' You get a point');
-  userPoints++;
-}else {
-  alert(user + ' you dissapoint us, you really do');
-}
-console.log('The user has answer question4 with: ' + question4);
+var q4 = function(){
+  var question4 = prompt ('Is he married?').toLowerCase();
+  if(question4 === 'yes'){
+    alert ('Thats right! he is happily married to a sugarliscious super fox!' + user + ' You get a point');
+    userPoints++;
+  }else {
+    alert(user + ' you dissapoint us, you really do');
+  }
+  console.log('The user has answer question4 with: ' + question4);
+};
+q4();
 
 //Question5
 var question5 = prompt ('Would you buy Tim a nice hoppy pint?').toLowerCase();
