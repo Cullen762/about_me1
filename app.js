@@ -49,15 +49,18 @@ var q1 = function(){
 q1();
 
 //question2
-var question2 = prompt ('Does Tim have a dog?').toLowerCase();
-if(question2 === 'yes'){
-  alert ('Nope! he has two cats and they are both AWESOME!...');
+var q2 = function(){
+  var question2 = prompt ('Does Tim have a dog?').toLowerCase();
+  if(question2 === 'yes'){
+    alert ('Nope! he has two cats and they are both AWESOME!...');
 
-}else {
-  alert('correct he has cats, awesome cats!, super cats! they are tremendously wonderful cats, everyone agrees');
+  }else {
+    alert('correct he has cats, awesome cats!, super cats! they are tremendously wonderful cats, everyone agrees');
 
-}
-console.log('The user has answer question2 with: ' + question2);
+  }
+  console.log('The user has answer question2 with: ' + question2);
+};
+q2();
 
 //Question 3
 var question3 = prompt ('Does Tim prefer Asian cuisine?').toLowerCase();
