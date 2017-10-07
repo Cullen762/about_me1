@@ -1,0 +1,151 @@
+body,html{background-color:black;
+  z-index: -2;
+}
+
+#header{
+  position: fixed;
+  background-color:white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 28px;
+  margin-left: -1%;
+  margin-right: -1%;
+  margin-top: -40%;
+  margin-bottom: 100%;
+  width: 100%;
+  padding-top: 23%;
+  padding-left: 10%;
+
+
+
+
+
+}
+
+#img{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: image(img/IMG_2527.jpg);
+  margin-right: -1%;
+
+
+}
+
+#links{
+  background-color: white;
+  font-size: 20px;
+  display: inline;
+  padding-top: -5%;
+  padding-bottom: -15%;
+  padding-left: 17%;
+  padding-right: 60%;
+  padding-bottom: -20%;
+  margin-bottom: -35%;
+  margin-left: 10%;
+
+}
+
+a {
+  color:black;
+
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  color:#9F3846;
+  text-decoration:none;
+}
+a{
+  padding: 5%;
+}
+
+
+
+#org{
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20%;
+  padding:1%;
+
+  }
+
+
+  #skills{
+
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: white;
+    /*figure out the transparent thing*/
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding: 2%;
+
+    }
+
+
+    #likes{
+
+      font-family: 'Roboto Condensed', sans-serif;
+      background-color: white;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 5%;
+      padding: 2%;
+}
+ #hates{
+   font-family: 'Roboto Condensed', sans-serif;
+   background-color: white;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 5%;
+   padding: 2%;
+ }
+ .li{
+   color:red;
+ }
+
+ #content{
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 5%;
+ }
+
+  #footer{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 28px;
+    background-color:black;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-top: 2%;
+    padding: 5%;
+
+  }
+#x{
+    color: white;
+
+
+  }
+#x:hover{
+  color: #9F3846;
+
+}
+
+
+
+
+/*<div id="header"> <!--header with links to topics : Tribe, sweet skills, sworn enemies, true loves --> </div>
+<div> <!-- white space--> </div>
+  <div id="tribe"> <h2>Tribe</h2>
+  <p>This is my tribe my tribe is amazing </p></div>
+    <div id="skills"> <h2>Sweet Skills</h2> <p>I have killer Bo staff skills</p></div>
+      <div id="likes"> <h2>Sworn Enemies and True Loves <!--cheeky fonts? answers to questions--></h2> <p><ul>
+        <li></li>
+      </ul></p></div>
+
+        <div id="footer"> <!--solid colour-->
+
+        </div>

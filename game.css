@@ -1,0 +1,57 @@
+
+
+body{
+  background-image: image(img/IMG_1962.jpg);
+  background-attachment:fixed;
+  width: 100%;
+  height: 100%;
+  /*style buttons and prompts */
+
+}
+
+/*a{
+  color: white;
+}*/
+
+/*#b{
+ background-attachment:fixed; */;
+ width: 1500px;
+}*/
+
+#text{
+  margin-left: 50%;
+  margin-bottom: 50%;
+  color:
+}
+/*
+
+
+
+}
+
+/*#dw2{
+background-color: #E4DEE3;
+border-color:red;
+margin-top: -5%;
+margin-left: 30%;
+margin-right: 23%;
+padding-left:3%;
+font-family: 'Indie Flower',cursive;
+font-size: 32px;
+
+
+
+}
+
+#dw3{
+background-color: #E4DEE3;
+border-color: yellow;
+margin-top: -5%;
+margin-left: 35%;
+margin-right: 40%;
+padding-left: 3%;
+font-family: 'Indie Flower', cursive;
+font-size: 32px;
+
+
+}*/
