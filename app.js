@@ -103,38 +103,44 @@ q5();
 
 // set a for loop
 //question6  (still needs 4 trys added)
-var question6 = prompt ('what is my favorite number (hint pick between-20 and 25)');
+var q6 = function(){
+  var question6 = prompt ('what is my favorite number (hint pick between-20 and 25)');
 
-if(question6 === '23'){
-  alert ('Wow! you actually paid attention!');
-  userPoints++;
-}else {
-  alert('nope it is 23 ');
-}
-console.log('The user has answer question6 with: ' + question6);
+  if(question6 === '23'){
+    alert ('Wow! you actually paid attention!');
+    userPoints++;
+  }else {
+    alert('nope it is 23 ');
+  }
+  console.log('The user has answer question6 with: ' + question6);
+};
+q6();
 
 //hung up on number 7 will refactor later
 //question7
-var biers = [ 'ipa','stout','lambic','porter','belgian','braggot'];
-var guesses = 6;
+var q7 = function(){
+  var biers = [ 'ipa','stout','lambic','porter','belgian','braggot'];
+  var guesses = 6;
 
-var question7 = prompt (' Tim, loves beer can you guess his favorite style?').toLowerCase();
-var isCorrect = false; //flag
-while(!isCorrect && guesses > 0 ){
+  var question7 = prompt (' Tim, loves beer can you guess his favorite style?').toLowerCase();
+  var isCorrect = false; //flag
+  while(!isCorrect && guesses > 0 ){
 
-  for(var i = 0; i < biers.length; i++){
-    if(question7 === biers[i]){
-      isCorrect = true;
+    for(var i = 0; i < biers.length; i++){
+      if(question7 === biers[i]){
+        isCorrect = true;
 
+      }
+    }
+    if(isCorrect === true){
+      alert ('You got it!');
+    }else{
+      question7 = prompt ('No Soup For You!');
+      guesses--;
     }
   }
-  if(isCorrect === true){
-    alert ('You got it!');
-  }else{
-    question7 = prompt ('No Soup For You!');
-    guesses--;
-  }
-}
-console.log('The user has answer question6 with: ' + question7);
-console.log('finsished with: ' + userPoints);
-alert ('Right then! ' + user + ' You finished with' + userPoints + ' points.');
+  console.log('The user has answer question6 with: ' + question7);
+  console.log('finsished with: ' + userPoints);
+  alert ('Right then! ' + user + ' You finished with' + userPoints + ' points.');
+};
+q7();
